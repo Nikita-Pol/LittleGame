@@ -6,7 +6,7 @@ public class Obstacle : MonoBehaviour
 {
     [SerializeField] private float speed = 1000;
     public List<Tile> tiles = new List<Tile>();
-
+    private bool _triggered = false;
 
 
     void Start()
@@ -42,6 +42,8 @@ public class Obstacle : MonoBehaviour
         Debug.Log($"Trigger hit: {collision.gameObject.name}, tag: {collision.tag}");
         if (collision.CompareTag("Destructor"))
         {
+            if (_triggered) return;
+            _triggered = true;
             GameManager.Instance.plusPoint();
             Destroy(gameObject);
         }

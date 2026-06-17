@@ -85,6 +85,8 @@ public class GameManager : MonoBehaviour
             maxpoints = double.Parse(record);
         ModeNow = mode;
         //SpawnTile();
+        foreach (Transform child in spawner_obstacle.transform)
+            Destroy(child.gameObject);
         _gameStarted = true;
     }
 
@@ -99,7 +101,7 @@ public class GameManager : MonoBehaviour
             points_text.text = points.ToString();
 
         if (maxpoints_text != null)
-            maxpoints_text.text = $"Record: {maxpoints}";
+            maxpoints_text.text = $"Record:{maxpoints}";
 
         if (!_gameStarted)
             return;
