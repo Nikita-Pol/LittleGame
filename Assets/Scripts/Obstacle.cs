@@ -45,7 +45,11 @@ public class Obstacle : MonoBehaviour
             if (_triggered) return;
             _triggered = true;
             GameManager.Instance.plusPoint();
-            Destroy(gameObject);
         }
+    }
+
+    public void SelfDestroy()
+    {
+        Destroy(gameObject);
     }
 }

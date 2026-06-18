@@ -284,6 +284,72 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Close
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf1cac4cfe2c454b8c2d80b5211e9c2
+      internalID: 1505308426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unmuted
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2614584331164a4409f709c25d565564
+      internalID: -649500844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Muted
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea7bfd127889cd4fb1ec6d617eef139
+      internalID: 500610949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -300,13 +366,16 @@ TextureImporter:
     nameFileIdTable:
       128x64 icon: -5380518276830422461
       64x64 icon: 1004093055
+      Close: 1505308426
       Enemy: -370911333608443676
       LittleGameSpriteSheet_2: 6344934339734499164
       LittleGameSpriteSheet_3: 6419622220162252768
       LittleGameSpriteSheet_4: 6258210407352781767
       LittleGameSpriteSheet_5: -164107259778947523
+      Muted: 500610949
       Pause: -1970512683
       Player: -451563514308011635
+      Unmuted: -649500844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
