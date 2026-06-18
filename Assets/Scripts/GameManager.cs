@@ -194,7 +194,7 @@ public class GameManager : MonoBehaviour
 
     private void OnApplicationPause(bool pause)
     {
-        if(pause && _gameStarted)
+        if(pause && _gameStarted && !_isPaused)
             Pause();
     }
 
